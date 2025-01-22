@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入学・卒業年数計算</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>入学・卒業年数計算</h1>
+        <div class="form-group">
+            <label for="birthdate">生年月日：</label>
+            <input type="date" id="birthdate" required>
+        </div>
+        <button onclick="calculateSchoolYears()">計算する</button>
+        <div id="result" class="result-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
