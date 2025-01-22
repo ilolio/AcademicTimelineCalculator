@@ -2,6 +2,9 @@
 
 生年月日から学歴と職歴の時系列を自動計算するWebアプリケーションです。
 
+## 試す
+[GitHub Pages](https://ilolio.github.io/AcademicTimelineCalculator/)
+
 ## 機能概要
 
 - 生年月日を入力すると以下の情報を自動計算します：
